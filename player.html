@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="player.css">
+  <script type="text/javascript" src="player.js"></script>
+  <title>easy Html5 player</title>
+</head>
+<body>
+  <div id="player">
+
+    <div id="video-container">
+      <div id="screen">
+        <img id="screen-btn" src="images/play.png">
+      </div>
+      
+      <video id="video">
+        <source src="http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4">
+        It seems like your browser doesn't support html5 video tag. Please update it!!!
+      </video>
+    </div>
+
+    <div id="controls-container">
+      <div id="pbar-container">
+        <div id="pbar"></div>
+      </div>
+
+      <div id="buttons-container">
+        <img id="sound-btn" src="images/sound.png">
+        <div id="sbar-container">
+          <div id="sbar"></div>
+        </div>
+        
+        <img id="play-btn" src="images/play.png">
+        <div id="time-field"> 00:00 / 00:00</div>
+        <img id="full-btn" src="images/fullscreen.png">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
